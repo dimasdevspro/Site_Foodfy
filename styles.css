@@ -15,7 +15,14 @@
 }
 
 .menu_links {
-    word-spacing: 30px;    
+    word-spacing: 30px;
+}
+
+.menu_links a{
+    color: #111111;
+    font-size: 16px;
+    line-height: 19px;
+    text-decoration: none;
 }
 
 .rectangle {
@@ -39,7 +46,8 @@
     height: 38px;
     position: absolute;
     margin: 117px 575px 211px 60px;
-    font-family: 'Roboto-Bold';
+    font-weight: bold;
+    font-size: 32px;
     color: #111111;
     line-height: 38px;
 }
@@ -51,7 +59,77 @@
     margin: 165px 564px 117px 60px;
     color: #000000;
     opacity: 0.7;
-    font-family: 'Roboto-Regular';
     font-size: 18px;
     line-height: 28px;
+}
+
+.most_accessed {
+    width: 174px;
+    height: 28px;
+    position: relative;
+    margin: 50px 996px 20px 230px;
+    font-family: 'Roboto-Bold';
+    font-weight: bold;
+    color: #111111;
+    font-size: 21px;
+    line-height: 28px;
+
+}
+
+/*==============CARDS=============*/
+
+.cards {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin: 0px 230px;
+    gap: 20px;
+}
+
+.img_revenue img{
+    width: 300px;
+    height: 140px;
+    border-radius: 15px;
+}
+
+.title_revenue p {
+    width: 250px;
+    height: 21px;
+    margin: 20px 0 5px 0 ;
+    text-align: left;
+    font-size: 18px;
+    color: #111111;
+    line-height: 21px;
+}
+
+.author_revenue p {
+    width: 118px;
+    height: 16px;
+    margin: 0px 0px 30px 0px;
+    color: #777777;
+    font-size: 14px;
+    line-height: 16px;
+
+}
+
+/*================*================*/
+
+.footer {
+    width: 1400px;
+    height: 62px;
+    position: relative;
+    margin: 50px 0px 0px 0px;
+    background-color: #EEEEEE;
+    
+}
+
+.footer p {
+    width: 300px;
+    height: 16px;
+    position: absolute;
+    margin: 23px 566px 23px 567px;
+    font-size: 14px;
+    color: #999999;
+    line-height: 16px;
+    text-align: center;
+
 }
