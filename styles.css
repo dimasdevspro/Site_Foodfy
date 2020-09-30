@@ -6,7 +6,7 @@
     border: 0;
     font-family: 'Roboto', sans-serif;
 }
-
+/*==========PAGE INDEX==============*/
 .menu {
     margin: 36.1px 0 36px 231px;
     display: grid;
@@ -132,4 +132,61 @@
     line-height: 16px;
     text-align: center;
 
+}
+
+/*=============PAGE ABOUT=============*/
+
+.about_foodfy_title {
+    width: 164px;
+    height: 28px;
+    margin: 50px 0 20px 230px;
+    color: #111111;
+    font-size: 24px;
+    line-height: 28px;
+    font-weight: bold;
+}
+
+.about_foodfy_info {
+    width: 940px;
+    height: 280px;
+    margin: 0 230px 0 230px;
+    color: #444444;
+    font-size: 18px;
+    line-height: 28px;
+}
+
+.how_all_begining_title {
+    width: 203px;
+    height: 24px;
+    margin: 30px 0 20px 230px;
+    color: #111111;
+    font-size: 20px;
+    line-height: 24px;
+}
+
+.how_all_begining_info {
+    width: 940px;
+    height: 280px;
+    margin: 0 230px 0 230px;
+    color: #444444;
+    font-size: 18px;
+    line-height: 28px;
+}
+
+.our_revenue_title {
+    width: 145px;
+    height: 24px;
+    margin: 30px 0 20px 230px;
+    font-size: 20px;
+    color: #111111;
+    line-height: 24px;
+}
+
+.our_revenue_info {
+    width: 940px;
+    height: 112px;
+    margin: 0 230px 50px 230px;
+    color: #444444;
+    font-size: 18px;
+    line-height: 28px;
 }
