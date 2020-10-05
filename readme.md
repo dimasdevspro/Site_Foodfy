@@ -18,7 +18,7 @@
 
 ### Sobre
 
-<p align="center">Criação de um site com receitas,links, menu, modal das receitas e suas respectivas informações. Desafios propostos pela Rocketseat no Bootcamp Launchbase:</p>
+<p align="center">Criação de um site com receitas, links, menu, modal das receitas e suas respectivas informações. Desafios propostos pela Rocketseat no Bootcamp Launchbase:</p>
 <ul >
  <li><a href="https://github.com/Rocketseat/bootcamp-launchbase-desafios-02/blob/master/desafios/02-foodfy.md" target="_blank">Desafio Foodfy;</a></li>
 </ul>
@@ -26,8 +26,8 @@
 <ul>
  <li>Criação de arquivo html, menu e links;</li>
  <li>Estililzação - utilização de cores, proporções e funcionalidades (HTML e CSS), que permitem boas experiências para o usuário;</li>
- <li>Criação de Card linkados a posts - Javascript - DOM;</li>
- <li>Ao clicar em um dos posts, deve ser aberta uma modal onde um iframe irá carregar as informações do post selecionado.</li>
+ <li>Criação de Card (pop-up) linkados as receitas - Javascript - DOM;</li>
+ <li>Ao clicar em uma das receitas, deve ser aberta uma modal onde um iframe irá carregar as informações da receita selecionada.</li>
 </ul>
 
 
