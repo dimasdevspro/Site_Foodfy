@@ -6,6 +6,8 @@
     border: 0;
     font-family: 'Roboto', sans-serif;
 }
+
+
 /*==========PAGE INDEX==============*/
 .menu {
     margin: 36.1px 0 36px 231px;
@@ -265,4 +267,10 @@
     line-height: 21px;
     text-align: center;
 
+}
+
+@media screen and (max-width: 1024px) {
+    .menu, .rectangle, .most_accessed, .cards, .footer {
+        width: 100vw;
+    }
 }
