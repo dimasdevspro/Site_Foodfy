@@ -13,6 +13,11 @@ html, body {
 }
 
 /*==========PAGE INDEX==============*/
+
+.box-index {
+margin: auto;
+}
+
 .menu {
     margin: 36.1px 0 36px 231px;
     display: grid;
