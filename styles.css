@@ -152,7 +152,7 @@ html, body {
 .about_foodfy_title {
     width: 164px;
     height: 28px;
-    margin: 50px 0 20px 230px;
+    margin: 50px 0 20px 0px;
     color: #111111;
     font-size: 24px;
     line-height: 28px;
@@ -162,7 +162,6 @@ html, body {
 .about_foodfy_info {
     width: 940px;
     height: 280px;
-    margin: 0 230px 0 230px;
     color: #444444;
     font-size: 18px;
     line-height: 28px;
@@ -171,7 +170,7 @@ html, body {
 .how_all_begining_title {
     width: 203px;
     height: 24px;
-    margin: 30px 0 20px 230px;
+    margin: 30px 0 20px 0px;
     color: #111111;
     font-size: 20px;
     line-height: 24px;
@@ -180,7 +179,7 @@ html, body {
 .how_all_begining_info {
     width: 940px;
     height: 280px;
-    margin: 0 230px 0 230px;
+    margin: 0 230px 0 0px;
     color: #444444;
     font-size: 18px;
     line-height: 28px;
@@ -189,7 +188,7 @@ html, body {
 .our_revenue_title {
     width: 145px;
     height: 24px;
-    margin: 30px 0 20px 230px;
+    margin: 30px 0 20px 0px;
     font-size: 20px;
     color: #111111;
     line-height: 24px;
@@ -198,7 +197,6 @@ html, body {
 .our_revenue_info {
     width: 940px;
     height: 112px;
-    margin: 0 230px 50px 230px;
     color: #444444;
     font-size: 18px;
     line-height: 28px;
