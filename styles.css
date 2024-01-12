@@ -281,7 +281,5 @@ html, body {
 }
 
 @media screen and (max-width: 1024px) {
-    .menu, .rectangle, .most_accessed, .cards, .footer {
-        width: 100vw;
-    }
+    .box-index {width: 80%;}
 }
