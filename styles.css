@@ -284,6 +284,52 @@ html, body {
 
 }
 
+
+/*--------------media queries -------------*/
+
 @media screen and (max-width: 1024px) {
-    .box-index {width: 80%;}
+    
+}
+
+@media screen and (max-width: 430px) {
+    .box-index {
+        width: 100%;
+    }
+    .menu {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        margin: 36px;
+    }
+    .rectangle {
+        width: 80%;
+        margin: 0 36px;
+    }
+
+    .rectangle_title {
+        margin: 117px 0px 211px 0px;
+    }
+
+    .rectangle_info {
+        margin: 165px 0px 117px 0px;
+    }
+
+    .rectangle_title, .rectangle_info  {
+        width: 100%;
+        text-align: center;
+    }
+
+    .rectangle_img_chef { display: none;}
+
+    .most_accessed {
+        margin: 50px 0 20px 36px;
+    }
+
+    .cards { 
+        display: block;
+        margin: 0 36px 0 36px;
+    }
+
+    .footer {
+        width: 100%;
+    }
 }
