@@ -287,19 +287,20 @@ html, body {
 
 /*--------------media queries -------------*/
 
-@media screen and (max-width: 1024px) {
-    
-}
-
 @media screen and (max-width: 430px) {
+
     .box-index {
         width: 100%;
     }
+
     .menu {
         display: grid;
         grid-template-columns: 1fr 1fr;
         margin: 36px;
     }
+
+/*---------------page home---------------*/
+
     .rectangle {
         width: 80%;
         margin: 0 36px;
@@ -327,6 +328,17 @@ html, body {
     .cards { 
         display: block;
         margin: 0 36px 0 36px;
+    }
+
+/*----------------page about--------------*/
+
+    .about_foodfy_title, .about_foodfy_info, .how_all_begining_title, .how_all_begining_info, .our_revenue_title, .our_revenue_info {
+        width: 100%;
+        text-align: center;
+    }
+
+    .about_foodfy_info, .how_all_begining_info, .our_revenue_info {
+        height: 80vh;
     }
 
     .footer {
