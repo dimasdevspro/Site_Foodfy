@@ -61,7 +61,7 @@ html, body {
     position: absolute;
     margin: 117px 575px 211px 60px;
     font-weight: bold;
-    font-size: 32px;
+    font-size: clamp(1.5rem, 1rem + 1vw, 3.2rem);
     color: #111111;
     line-height: 38px;
 }
@@ -73,7 +73,7 @@ html, body {
     margin: 165px 564px 117px 60px;
     color: #000000;
     opacity: 0.7;
-    font-size: 18px;
+    font-size: clamp(1rem, 1rem + 1vw, 1.0rem);
     line-height: 28px;
 }
 
